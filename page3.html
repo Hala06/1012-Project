@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memory Card Game</title>
     <link rel="stylesheet" href="page3.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Kablammo&family=Playfair+Display:ital,wght@1,400..900&display=swap');
-    </style>
 </head>
-
 <body>
-    <div id="game-board">
-        <!-- Cards will be dynamically generated -->
+    <div class="game-container">
+        <h1>Memory Card Game</h1>
+        <div class="score-panel">
+            <span id="level">Level: 1</span>
+            <span id="score">Score: 0</span>
+        </div>
+        <div id="card-board" class="card-board"></div>
+        <button id="restart" class="restart-button">Restart Game</button>
     </div>
-    <script src="index.js"></script>
+    <script src="page3.js"></script>
 </body>
-
 </html>
